@@ -1,0 +1,5 @@
+name: MyModule
+description: A custom module to run Unit test case
+core: 8.x
+version: 1.0
+type: module

@@ -1,0 +1,3 @@
+services:
+ mymodule.custom_form_service:
+  class: Drupal\mymodule\Services\CustomFormService

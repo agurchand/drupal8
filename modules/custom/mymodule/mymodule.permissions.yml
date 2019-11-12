@@ -1,0 +1,3 @@
+administer mycustomform:
+  title: 'administer mycustomform'
+  description: 'A custom form permission for mymodule.'

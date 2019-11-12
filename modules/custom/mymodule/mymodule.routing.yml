@@ -1,0 +1,13 @@
+mymodule.my_custom_form:
+  path: '/my-custom-form'
+  defaults:
+    _form: '\Drupal\mymodule\Form\MyCustomForm'
+    _title: 'My Custom Form'
+  requirements:
+    _permission: 'administer mycustomform'
+myviewsfilters.autocomplete:
+  path: '/jobautocomplete/{view_name}/{view_display}/{filter_name}/{view_args}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyViewsAutocompleteFiltersController::autocomplete'
+  requirements:
+    _permission: 'access content'
