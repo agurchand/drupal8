@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" tests="3" assertions="9" errors="1" failures="0" skipped="0" time="250.395551">
+    <testcase name="testArticleFormPageExists" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="51" assertions="3" time="83.751812"/>
+    <testcase name="testArticleTitleFieldExists" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="58" assertions="3" time="81.478868"/>
+    <testcase name="testArticleTitleFieldHasValue" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="65" assertions="3" time="85.164871">
+      <error type="PHPUnit\Framework\Error\Warning">Drupal\Tests\mymodule\Functional\MyCustomFormTest::testArticleTitleFieldHasValue
+preg_quote() expects parameter 1 to be string, array given
+
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:673
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php:66
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

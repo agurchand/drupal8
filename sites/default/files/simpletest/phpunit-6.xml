@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" tests="3" assertions="24" errors="1" failures="0" skipped="0" time="433.379832">
+    <testcase name="testArticleFormPageExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="64" assertions="8" time="157.129222"/>
+    <testcase name="testArticleTitleFieldExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="71" assertions="8" time="145.529484"/>
+    <testcase name="testArticleTitleFieldHasValue" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="78" assertions="8" time="130.721126">
+      <error type="Behat\Mink\Exception\ExpectationException">Drupal\Tests\mymodule\Functional\BasicTest::testArticleTitleFieldHasValue
+Behat\Mink\Exception\ExpectationException: The field "Title" value is "Non-Admin", but "Admin" expected.
+
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:770
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:677
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php:79
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" tests="3" assertions="24" errors="0" failures="0" skipped="0" time="447.539327">
+    <testcase name="testCustomFormPageExists" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="55" assertions="8" time="160.687060"/>
+    <testcase name="testCustomFormFieldExists" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="62" assertions="8" time="140.833340"/>
+    <testcase name="testCustomFormFieldHasValue" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="69" assertions="8" time="146.018927"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="82.548766">
+    <testcase name="testArticleFormPageExists" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="51" assertions="3" time="82.548766"/>
+  </testsuite>
+</testsuites>

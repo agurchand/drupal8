@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" tests="3" assertions="24" errors="0" failures="0" skipped="0" time="497.008928">
+    <testcase name="testArticleFormPageExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="63" assertions="8" time="127.851238"/>
+    <testcase name="testArticleTitleFieldExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="70" assertions="8" time="214.842110"/>
+    <testcase name="testArticleTitleFieldHasValue" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="77" assertions="8" time="154.315580"/>
+  </testsuite>
+</testsuites>

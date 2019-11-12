@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" tests="1" assertions="3" errors="1" failures="0" skipped="0" time="85.638396">
+    <testcase name="testArticleTitleFieldHasValue" class="Drupal\Tests\mymodule\Functional\MyCustomFormTest" classname="Drupal.Tests.mymodule.Functional.MyCustomFormTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php" line="52" assertions="3" time="85.638396">
+      <error type="Behat\Mink\Exception\ExpectationException">Drupal\Tests\mymodule\Functional\MyCustomFormTest::testArticleTitleFieldHasValue
+Behat\Mink\Exception\ExpectationException: The field "Select Country" value is "in", but "India" expected.
+
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:770
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:677
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\MyCustomFormTest.php:53
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

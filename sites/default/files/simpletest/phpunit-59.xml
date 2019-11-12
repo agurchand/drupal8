@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.025963">
+    <testcase name="testFormBuilding" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="46" assertions="0" time="0.025963">
+      <error type="Error">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testFormBuilding
+Error: Class 'Drupal\Tests\mymodule\Unit\CustomFormService' not found
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:35
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

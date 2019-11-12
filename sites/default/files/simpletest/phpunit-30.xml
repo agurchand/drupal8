@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.044432">
+    <testcase name="testCustomForm_stateArrayAssertion" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="38" assertions="0" time="0.044432">
+      <error type="Error">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+Error: Call to undefined method Drupal\Tests\mymodule\Unit\CustomFormUnitTest::state_list()
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:40
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

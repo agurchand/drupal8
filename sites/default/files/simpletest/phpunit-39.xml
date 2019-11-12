@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="0" errors="1" failures="1" skipped="0" time="0.032414">
+    <testcase name="testCustomForm_stateArrayAssertion" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="39" assertions="0" time="0.032414">
+      <error type="Error">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+Error: Call to undefined method Drupal\Tests\mymodule\Unit\CustomFormUnitTest::t()
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:43
+</error>
+      <failure type="PHPUnit\Framework\AssertionFailedError">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+@covers method does not exist Drupal\mymodule\Form\MyCustomForm::state_list: Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:30
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:145
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:200
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:240
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalListener.php:39
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

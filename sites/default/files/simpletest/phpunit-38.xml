@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="1" errors="0" failures="2" skipped="0" time="0.089738">
+    <testcase name="testCustomForm_stateArrayAssertion" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="39" assertions="1" time="0.089738">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+-    0 =&gt; 'Tamilnadu'
+-    1 =&gt; 'Karnataka'
+-    2 =&gt; 'Andhra Pradesh'
++    'tn' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
++    'kn' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
++    'ap' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:47
+</failure>
+      <failure type="PHPUnit\Framework\AssertionFailedError">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+@covers method does not exist Drupal\mymodule\Form\MyCustomForm::state_list: Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:30
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:145
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:200
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalStandardsListenerTrait.php:240
+C:\xampp\htdocs\drupal8\core\tests\Drupal\Tests\Listeners\DrupalListener.php:39
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

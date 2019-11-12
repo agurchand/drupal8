@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.019215">
+    <testcase name="testCustomForm_stateArrayAssertion" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="28" assertions="0" time="0.019215">
+      <error type="Drupal\Core\DependencyInjection\ContainerNotInitializedException">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+Drupal\Core\DependencyInjection\ContainerNotInitializedException: \Drupal::$container is not initialized yet. \Drupal::setContainer() must be called with a real container.
+
+C:\xampp\htdocs\drupal8\core\lib\Drupal.php:130
+C:\xampp\htdocs\drupal8\core\lib\Drupal.php:158
+C:\xampp\htdocs\drupal8\core\lib\Drupal\Core\StringTranslation\StringTranslationTrait.php:104
+C:\xampp\htdocs\drupal8\core\lib\Drupal\Core\StringTranslation\StringTranslationTrait.php:71
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\src\Form\MyCustomForm.php:88
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:30
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

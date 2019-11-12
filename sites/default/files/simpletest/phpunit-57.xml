@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.120480">
+    <testcase name="testFormBuilding" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="40" assertions="0" time="0.120480">
+      <error type="TypeError">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testFormBuilding
+TypeError: Argument 1 passed to Drupal\mymodule\Form\MyCustomForm::__construct() must be an instance of Drupal\mymodule\Services\CustomFormService, none given, called in C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php on line 41
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\src\Form\MyCustomForm.php:25
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:41
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

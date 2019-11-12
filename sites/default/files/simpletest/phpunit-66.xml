@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="1" errors="0" failures="1" skipped="0" time="0.072781">
+    <testcase name="testFormBuilding" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="47" assertions="1" time="0.072781">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testFormBuilding
+Failed asserting that an array does not have the key 'select_state'.
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:50
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

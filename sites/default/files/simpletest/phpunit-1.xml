@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Functional\BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" tests="3" assertions="20" errors="2" failures="0" skipped="0" time="383.549828">
+    <testcase name="testArticleFormPageExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="59" assertions="8" time="143.057290"/>
+    <testcase name="testArticleTitleFieldExists" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="71" assertions="6" time="122.586531">
+      <error type="Behat\Mink\Exception\ElementNotFoundException">Drupal\Tests\mymodule\Functional\BasicTest::testArticleTitleFieldExists
+Behat\Mink\Exception\ElementNotFoundException: Form field with id|name|label|value "Title" not found.
+
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:638
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php:74
+</error>
+    </testcase>
+    <testcase name="testArticleTitleFieldHasValue" class="Drupal\Tests\mymodule\Functional\BasicTest" classname="Drupal.Tests.mymodule.Functional.BasicTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php" line="80" assertions="6" time="117.906007">
+      <error type="Behat\Mink\Exception\ElementNotFoundException">Drupal\Tests\mymodule\Functional\BasicTest::testArticleTitleFieldHasValue
+Behat\Mink\Exception\ElementNotFoundException: Form field with id|name|label|value "Title" not found.
+
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:638
+C:\xampp\htdocs\drupal8\vendor\behat\mink\src\WebAssert.php:671
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Functional\BasicTest.php:82
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

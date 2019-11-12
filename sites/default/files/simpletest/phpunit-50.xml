@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" tests="1" assertions="1" errors="0" failures="1" skipped="0" time="0.031199">
+    <testcase name="testCustomForm_stateArrayAssertion" class="Drupal\Tests\mymodule\Unit\CustomFormUnitTest" classname="Drupal.Tests.mymodule.Unit.CustomFormUnitTest" file="C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php" line="39" assertions="1" time="0.031199">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">Drupal\Tests\mymodule\Unit\CustomFormUnitTest::testCustomForm_stateArrayAssertion
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     'tn' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
+-    'ka' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
+     'ap' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
++    'kn' =&gt; Drupal\Core\StringTranslation\TranslatableMarkup Object (...)
+
+C:\xampp\htdocs\drupal8\modules\custom\mymodule\tests\src\Unit\CustomFormUnitTest.php:47
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
