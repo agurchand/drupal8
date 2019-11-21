@@ -1,0 +1,16 @@
+<?php
+  
+function classy_preprocess_paragraph(&$variables) {
+  
+}
+
+function classy_preprocess_views_exposed_form(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node instanceof \Drupal\node\NodeInterface) {
+    $paragraph = $node->field_paragraph_one->entity->field_photos->entity;
+    $build = \Drupal::entityTypeManager()->getViewBuilder('media')->view($paragraph);
+    $variables['myparagraph'] = $build;
+  }
+
+  
+}

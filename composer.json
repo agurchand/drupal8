@@ -10,7 +10,9 @@
         "drupal/console": "~1.0",
         "drupal/admin_toolbar": "^2.0",
         "drupal/views_block_filter_block": "^1.0@beta",
-        "drupal/block_field": "^1.0@alpha"
+        "drupal/block_field": "^1.0@alpha",
+        "drupal/paragraphs": "^1.10",
+        "drupal/twig_tweak": "^2.4"
     },
     "replace": {
         "drupal/core": "^8.7"

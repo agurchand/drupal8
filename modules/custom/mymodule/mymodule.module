@@ -11,6 +11,8 @@ function mymodule_form_alter(&$form, FormStateInterface $form_state, $form_id) {
 
     if ($form['#id'] == 'views-exposed-form-test-view-block-1') {
       $form['title']['#autocomplete_route_name'] = 'myviewsfilters.autocomplete';
+      // $form['title']['#prefix'] = "<div> {{ content.field_photos }}";
+      // $form['title']['#suffix'] = "</div>";
     }
 
   }
