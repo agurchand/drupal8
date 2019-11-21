@@ -21,3 +21,11 @@ summary {
   padding: 0.2em 0.5em;
   cursor: pointer;
 }
+
+.mytitle{
+  position: absolute;
+  z-index: 1;
+}
+.mymedia{
+  position: relative;
+}

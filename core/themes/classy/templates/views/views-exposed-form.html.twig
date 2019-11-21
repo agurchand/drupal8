@@ -17,7 +17,15 @@
 {{ q }}
 {% endif %}
 <div class="form--inline clearfix">
-  {{  myparagraph  }}
-
-  {{ form }}
+  <div id="group-title-mypara">
+    <div class="mytitle">
+      {{ form.title }}  
+    </div>
+    <div class="mymedia">
+      {{  myparagraph  }}
+    </div>
+  </div>
+  <div id="other-fields">
+    {{ form.book_author_target_id }}
+  </div>
 </div>
